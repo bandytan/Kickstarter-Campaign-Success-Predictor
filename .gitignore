@@ -1,7 +1,6 @@
 .ipynb_checkpoints
 .DS_Store
-data/81404_118176_risk.json
-data/81404_118176_story.json
-df1.csv
-df1.xlsx
 *.csv
+*.json
+*.xlsx
+
