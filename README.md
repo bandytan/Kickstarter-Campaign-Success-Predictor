@@ -10,5 +10,17 @@ Backers may not know how likely a campaign is to succeed in the future - much ti
 ## Our Solution 
 Thus, we aim to use machine learning to predict the success of campaigns for backers to maximise the net return on investments, and to minimise the opportunity cost of their investments.
 
-# Quick Start 
-- Install requirements via requirements.txt
+# Introduction To Codes 
+1.  Scraping GraphQL.ipynb 
+    - Example code on how we scraped Kickstarter Story and Risks 
+    - Not advisable to run on full webrobots dataset as it will take weeks 
+2. Data Collection Pipeline.ipynb
+    - Code to combine all datasets
+3. Data Cleaning.ipynb 
+    - 4-step cleaning process to clean output produced after merging datasets in Data Collection Pipeline.ipynb
+4. Feature Engineering.ipynb
+    - Feature engineering based on cleaned dataset in Data Cleaning.ipynb
+5. All notebooks in /models 
+    - Each notebook contains code that trains different ML models and evaluate performance
+6. Visualisations.ipynb
+    - After tuning all models to obtains optimal hyperparameters, training them again here to compare all models  
